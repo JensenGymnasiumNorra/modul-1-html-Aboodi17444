@@ -27,6 +27,40 @@ Se till att när man klickar på submit-knappen i formuläret så ska tack.html 
 </head>
 
 <body>
+    <form action="tack.html"  method = "get">
+        <fieldset>
+            <legend>Personal data:</legend>
+        <label for ="Namn">Namn:</label>
+        <input type="Namn" id="Namn" name ="Namn"><br><br>
+          <label for ="Ålder">Ålder:</label>
+        <input type="Ålder" id="Ålder" name ="Ålder"><br><br>
+        <label for ="Nummer">Nummer:</label>
+        <input type="Nummer" id="Nummer" name ="Nummer"><br><br>
+    
+        </fieldset>
+        <fieldset>
+            <legend>Preferens:</legend>
+            <input type = "radio" id="male" name="gender" value="Man">
+            <label for ="male">Man</label><br><br>
+            <input type="radio" id="female" name="gender" value="kvinna">
+            <label for="female">Kvinna</label><br><br>
+
+              <input type="checkbox" id="newsletter" name="newsletter" value="ja">
+            <label for="newsletter">Jag vill prenumerera på nyhetsbrevet</label><br><br>
+
+             <label for="country">Land:</label>
+            <select id="country" name="country">
+                <option value="sverige">Sverige</option>
+                <option value="norge">Norge</option>
+                <option value="finland">Finland</option>
+                <option value="danmark">Danmark</option>
+            </select><br><br>
+        </fieldset>
+
+        <input type="submit" value="Skicka">
+        </fieldset>
+    </form>
+
 
 </body>
 
